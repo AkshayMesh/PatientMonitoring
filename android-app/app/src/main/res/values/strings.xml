@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">AndroidApp</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="sign_in_to_account">Sign in to your account</string>
+    <string name="swipe_to_sign_in">Swipe up to sign in</string>
+    <string name="login">Login</string>
+    <string name="app_title">Patient Monitoring\nSystem</string>
+    <string name="landing_graphic">landing graphic</string>
+
+    <string name="admin">Admin</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="users">Users</string>
+    <string name="count_0">0</string>
+    <string name="total_users">Total users</string>
+    <string name="total_media">Total media</string>
+    <string name="dummy_user_name">Dinesh Tundalwar</string>
+
+    <string name="media">Media</string>
+    <string name="videos">Videos</string>
+    <string name="audios">Audios</string>
+    <string name="upload_media_files">Upload more media files</string>
+    <string name="add_media">Add media</string>
+
+    <string name="select_media_type">Select media type</string>
+
+    <string name="icon_description">icon</string>
+    <string name="upload_media">Upload media</string>
+    <string name="fill_fields">Please provide all the required information in the fields below.</string>
+    <string name="browse_file">Browse files</string>
+    <string name="save">Save</string>
+
+    <string name="greetings">Greetings</string>
+    <string name="quote">Here is your health monitoring dashboard</string>
+    <string name="pulse_unit">bpm</string>
+    <string name="pulse_rate">Avg Pulse rate</string>
+    <string name="spo_unit">\%(percent)</string>
+    <string name="spo">SpO2</string>
+    <string name="temperature_unit">0</string>
+    <string name="temperature">Temperature</string>
+    <string name="position">Current position</string>
+    <string name="recommended_videos">Recommended Videos</string>
+    <string name="recommended_music">Recommended audios</string>
+    <string name="notifications">Notifications</string>
+    <string name="no_notifications">No notifications to show</string>
+
+    <string name="faq">Frequently Asked Questions</string>
+    <string name="question_mark">FAQ\?</string>
+    <string name="have_questions">Have any questions or need help</string>
+    <string name="click_here_faq">Click here to view frequently asked questions</string>
+    <string name="media_type">Media type :</string>
+    <string name="quiz">Quiz</string>
+    <string name="search">Search</string>
+    <string name="available">Available</string>
+    <string name="search_query">Search query</string>
+    <string name="quiz_description">Take a small quiz to test knowledge or gain knowledge</string>
+    <string name="click_to_view">click here to view</string>
+    <string name="logout">Logout</string>
+    <string name="delete">Delete</string>
+    <string name="view">View</string>
+
+    <string name="name">Name:</string>
+    <string name="profession">Profession:</string>
+    <string name="availability">Availability:</string>
+    <string name="experience">Experience:</string>
+    <string name="gender">Gender:</string>
+    <string name="call_doctor">Call Doctor</string>
+</resources>

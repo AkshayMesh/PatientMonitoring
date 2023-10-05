@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Material.Button" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/green</item>
+        <item name="android:textColor">#E3E3E3</item>
+        <item name="cornerRadius">0dp</item>
+    </style>
+
+    <style name="TabTextStyle" parent="android:TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:textColor">@color/semi_white</item>
+    </style>
+</resources>

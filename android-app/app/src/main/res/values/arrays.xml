@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="categories">
+        <item>Choose category</item>
+        <item>Students</item>
+        <item>Working Professionals</item>
+        <item>Business man</item>
+        <item>Elder people</item>
+    </array>
+</resources>

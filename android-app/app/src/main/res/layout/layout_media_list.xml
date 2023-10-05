@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular_font"
+        android:includeFontPadding="false"
+        android:text="@string/media"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black_white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_media_type_stat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginStart="20dp"
+        android:includeFontPadding="false"
+        android:text="@string/media_type"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_head" />
+
+    <TextView
+        android:id="@+id/tv_media_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:includeFontPadding="false"
+        android:text="@string/videos"
+        android:layout_marginStart="4dp"
+        android:textColor="@color/green"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_media_type_stat"
+        app:layout_constraintStart_toEndOf="@+id/tv_media_type_stat" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="32dp"
+        android:clipToPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_media_type_stat"
+        app:tabBackground="@drawable/tab_background"
+        app:tabGravity="fill"
+        app:tabIndicator="@drawable/tab_background"
+        app:tabIndicatorAnimationMode="elastic"
+        app:tabIndicatorGravity="stretch"
+        app:tabIndicatorHeight="0dp"
+        app:tabMode="scrollable"
+        app:tabPaddingBottom="0dp"
+        app:tabPaddingEnd="12dp"
+        app:tabPaddingStart="12dp"
+        app:tabPaddingTop="0dp"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextAppearance="@style/TabTextStyle" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/top_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabs"
+        app:layout_constraintVertical_bias="0.238"
+        tools:itemCount="4"
+        tools:listitem="@layout/item_recommended_video" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
